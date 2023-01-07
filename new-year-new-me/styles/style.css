@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Work+Sans:wght@200;300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section design */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    height: 720px;
+}
+
+.header-container {
+    float: right;
+    padding: 180px 180px 0 0;
+    color: #fff;
+    text-align: right;
+}
+
+.header-title {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.btn-primary {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #005FAC;
+    font-weight: 600;
+}
+
+/* previous year section design */
+
+.previous-year {
+    display: flex;
+    margin: 100px 200px 0 200px;
+}
+
+.previous-year-img {
+    height: 600px;
+    width: 500px;
+}
+
+.previous-year-container {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.previous-year-description {
+    margin-bottom: 10px;
+}
+
+
+.fa-check {
+    color: rgb(110, 193, 110);
+    margin-right: 10px;
+}
+
+/* My Plans design */
+
+
+.my-plan-main-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.my-plan-container {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.my-plan-title {
+    margin-top: 20px;
+}
+
+.my-plan-description {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #737272;
+
+}
+
+/* gradiant section design */
+
+.gradient-section {
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+.gradient-container {
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 200px;
+    width: 1050px;
+    padding: 50px;
+}
+
+
+.gradient-title {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* footer section design */
+
+.footer {
+    background-color: black;
+    display: flex;
+    margin-top: 150px;
+    gap: 330px;
+    padding-left: 190px;
+    padding-top: 130px;
+    height: 400px;
+}
+
+.footer-left-title {
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-left-description {
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-left-description a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-container img {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.footer-right-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-right .email {
+    display: block;
+    width: 325px;
+    height: 64px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right .email::placeholder {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.footer-right .submit {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #005FAC;
+    height: 64px;
+    width: 170px;
+    border-radius: 10px;
+}
